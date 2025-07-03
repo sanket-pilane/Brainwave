@@ -1,14 +1,91 @@
-# Brainwave - A Saas application
+# 🚀 Brainwave – A SaaS Platform for Next-Gen AI Tools
 
-Brainwave - It is basically a compilation of multiple ai tools which is provided by the platform OnDemand. It includes various tools which is helpful in daily life. For example: A chat conversation, Image generation, Video generation, audio generation and code completion.
 
-# OnDemand :
+## 🧠 What is Brainwave?
 
-OnDemand is a powerful Al platform designed for developers, researchers, and businesses to access an array of Al models and tools that enhance the capability and functionality of language models that we use everyday. Our platform allows users to incorporate generative Al into their upcoming or pre existing systems by making use of Agents.
+**Brainwave** is a full-stack SaaS AI platform that consolidates multiple AI-powered tools under one roof. Designed to enhance productivity for students, developers, and creatives, it offers a unified workspace for chat, media generation, and code assistance - all powered by cutting-edge AI models.
 
-We offer over 150 agents through the marketplace but also provide users with the ability to build their own. These agents can then work individually or alongside others with a variety of language models that we offer or that are available through hugging face.
+No more juggling between different AI platforms. Brainwave brings everything together into one powerful tool - from conversation to creation.
 
-You're then able to test and fine tune your Generative Al Chatbots directly in OnDemand before then exporting the code and incorporating your chat bot into your very own applications.
+---
+
+## 🎯 Problem It Solves
+
+Today’s AI tools are fragmented across different services. Whether it’s chat, code, or media generation, users constantly switch platforms - causing loss of context, inefficiency, and a poor user experience.
+
+**Brainwave solves this** by bringing essential AI functionality into one seamless, efficient interface. It’s especially powerful for:
+
+- Students summarizing content
+- Developers building and testing prototypes
+- Creators generating visuals, music, and code
+
+---
+
+## 🧩 Key Features
+
+- 💬 **AI Chat** – Powered by OpenAI for real-time intelligent conversations
+- 🖼️ **Image Generation** – Uses Replicate’s `flux-1.1-pro-ultra` model
+- 🎥 **Video Generation** – Via MiniMax’s `video-01` with 720p cinematic results
+- 🎵 **Music Creation** – Via MiniMax’s `music-01`, generates vocals & instrumentals
+- 👨‍💻 **Code Completion** – Real-time AI code generation using OpenAI
+
+---
+
+## 🛠️ Tech Stack
+
+**Frontend**
+- ⚛️ React.js
+- 🚀 Next.js
+- 🎨 Tailwind CSS
+
+**Backend & APIs**
+- 🧠 OpenAI API (chat & code)
+- 🖼️ Replicate (image, video, audio)
+- 🔐 Clerk Auth (authentication)
+- 🧪 Postman (API testing)
+- 🐙 Git & GitHub (version control)
+
+**Design Principles**
+- ✅ Clean, modern UI/UX
+- ✅ Fully mobile-responsive
+- ✅ Fast API responses with scalable architecture
+
+---
+
+## 📸 Media Models in Action
+
+### 🎥 Video
+- **Model**: `minimax/video-01`
+- Text-to-video & image-to-video support
+- 720p HD output
+- Cinematic camera motion
+- 25fps with 6s clip duration (10s coming soon)
+
+### 🎵 Audio
+- **Model**: `minimax/music-01`
+- Generates music with vocals
+- Multiple genres supported (pop, classical, etc.)
+- 60s duration support
+
+### 🖼️ Image
+- **Model**: `black-forest-labs/flux-1.1-pro-ultra`
+- High resolution output up to 4MP
+- Delivers results in under 10 seconds
+- Ideal for artwork, thumbnails, and prompt visuals
+
+---
+
+## 📽️ Demo
+
+🎥 A quick demo video walkthrough of Brainwave Web is available in the repo. Explore it and share your feedback 🙌
+
+---
+
+## 📱 What’s Next?
+
+Coming soon: **Brainwave Mobile App** built in **Flutter** - with the same powerful AI tools, fully optimized for mobile & tablet experiences.
+
+---
 
 ## Project Preview
 
@@ -20,93 +97,17 @@ You're then able to test and fine tune your Generative Al Chatbots directly in O
 | ----------------------------------------------------------------------------------------------------------------------- | ----------------------------------------------------------------------------------------------------------------------- | ----------------------------------------------------------------------------------------------------------------------- |
 | ![Screenshot from 2024-09-14 10-32-22](https://github.com/user-attachments/assets/a8ea9e29-84f9-4d89-9c2b-56987c9fcaa2) | ![Screenshot from 2024-09-14 10-32-47](https://github.com/user-attachments/assets/001ca480-f33e-4ae7-b8d4-fa2ab959f650) | ![Screenshot from 2024-09-14 10-45-04](https://github.com/user-attachments/assets/1914b915-b45f-4dfb-82d2-80de74ec8df5) |
 
-## Tech Stack
+---
 
-- Next.js
-- Cleark
-- OnDemand
-- React.js
-- Tailwind CSS
 
-# Braniwave Agents
+## 🚀 Quick Start
 
-## 1. Uni Content
-
-- **Description**: A specialized agent for college students, trained on data from LPU (Lovely Professional University).
-- **Benefits**: Provides tailored academic support, resources, and information specific to LPU students.
-- **Use Case**: Ideal for students seeking assistance with course material, university-specific information, and academic resources.
-
-## 2. Spotify Music Suggestion
-
-- **Description**: Suggests songs based on user preferences and listening history.
-- **Benefits**: Enhances your music experience by recommending songs that match your taste.
-- **Use Case**: Perfect for users looking for new music recommendations and personalized playlists.
-
-## 3. GitHub Search Plugin
-
-- **Description**: Enables searching and retrieving data from GitHub through chat.
-- **Benefits**: Simplifies finding repositories, code snippets, and developer information on GitHub.
-- **Use Case**: Useful for developers and researchers looking for specific code or projects on GitHub.
-
-## 4. Worldwide Event Agent
-
-- **Description**: Provides information about events happening around the world.
-- **Benefits**: Keeps users updated with global events, including conferences, festivals, and more.
-- **Use Case**: Ideal for users interested in staying informed about international events and activities.
-
-## 5. Udemy Course Search API
-
-- **Description**: Facilitates searching for courses available on Udemy, offering details on course titles, instructors, and descriptions.
-- **Benefits**: Helps users find relevant courses and compare options based on their needs.
-- **Use Case**: Great for individuals looking to enhance their skills through online learning.
-
-## 6. Amazon Shopping Plugin
-
-- **Description**: Searches and returns a list of products available on Amazon.
-- **Benefits**: Enhances e-commerce applications by providing product search and retrieval capabilities.
-- **Use Case**: Ideal for integrating product search functionality into e-commerce platforms.
-
-## 7. Internet Shopping Plugin
-
-- **Description**: Enhances e-commerce applications with product information, inventory management, and user reviews.
-- **Benefits**: Provides a comprehensive shopping experience with detailed product insights and reviews.
-- **Use Case**: Suitable for e-commerce platforms needing advanced features for managing product listings and user interactions.
-
-## 8. US Stock Technical Analysis Plugin
-
-- **Description**: Performs technical analysis on US stocks, including RSI, MACD, and moving averages.
-- **Benefits**: Assists traders and investors in analyzing stock performance and making informed decisions.
-- **Use Case**: Useful for individuals and professionals involved in stock trading and market analysis.
-
-## 9. Latest News Headlines Plugin
-
-- **Description**: Delivers real-time news and headlines based on user-specified queries.
-- **Benefits**: Provides up-to-date news and information tailored to user interests.
-- **Use Case**: Ideal for users wanting to stay informed about current events and breaking news.
-
-## 10. Vision Plugin
-
-- **Description**: Analyzes and interprets visual content such as images and photographs.
-- **Benefits**: Enables users to gain insights and information from visual data.
-- **Use Case**: Useful for applications requiring image recognition and analysis.
-
-## 11. Media Knowledge Plugin
-
-- **Description**: Extracts context from various media types, including documents, videos, audio, and YouTube.
-- **Benefits**: Facilitates understanding and interpretation of diverse media formats.
-- **Use Case**: Ideal for applications needing comprehensive media analysis and context extraction.
-
-## Quick Start
-
-Follow these steps to set up the project locally on your machine.
-
-**Prerequisites**
-
-Make sure you have the following installed on your machine:
+### Prerequisites
 
 - [Git](https://git-scm.com/)
 - [Node.js](https://nodejs.org/en)
-- [npm](https://www.npmjs.com/) (Node Package Manager)
+- [npm](https://www.npmjs.com/)
+
 
 **Cloning the Repository**
 
@@ -132,4 +133,4 @@ npm run dev
 
 Open [http://localhost:3000](http://localhost:3000) in your browser to view the project.
 
-Happy Coding😊
+Happy Building with AI! 😊
